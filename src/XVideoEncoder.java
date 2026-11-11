@@ -2,7 +2,7 @@ public class XVideoEncoder implements VideoEncoder {
 
     @Override
     public void encode(Video video) {
-        System.out.println("Encoding video...");
-        System.out.println("Done!\n");
+        IO.println("Encoding video...");
+        IO.println("Done!\n");
     }
 }
